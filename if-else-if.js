@@ -1,4 +1,4 @@
-const oras = 'Debesuota';
+const oras = 'Kas siandien bus?';
 
 if (oras === 'Saulėta') {
     console.log('Gera diena išeiti pasivaikščioti į mišką 🌞');
@@ -10,4 +10,6 @@ if (oras === 'Saulėta') {
     console.log('Ar tavo automobilio rūko žibintai tikrai veikia?');
 } else if (oras === 'Debesuota') {
     console.log('Šiandien lauke pilka ir niūru, pasidaryk skanios arbatos!');
+} else {
+    console.log('Oras neįtakoja mano nuotaikos 😉');
 }
