@@ -1,3 +1,5 @@
+// #1 uzrasymo budas:
+
 const oras = 'Kas siandien bus?';
 
 if (oras === 'Saulėta') {
@@ -13,6 +15,8 @@ if (oras === 'Saulėta') {
 } else {
     console.log('Oras neįtakoja mano nuotaikos 😉');
 }
+
+// #2 uzrasymo budas:
 
 if (oras === 'Saulėta') {
     console.log('Gera diena išeiti pasivaikščioti į mišką 🌞');
@@ -36,4 +40,34 @@ if (oras === 'Saulėta') {
             }
         }
     }
+}
+
+// #3 uzrasymo budas:
+
+if (oras === 'Saulėta') {
+    console.log('Gera diena išeiti pasivaikščioti į mišką 🌞');
+}
+
+if (oras ==== 'Lietinga') {
+    console.log('Pats laikas prisiminti kas yra šachmatai 🌰');
+}
+
+if ('Vėjuota') {
+    console.log();
+}
+
+if ('Rūkas') {
+    console.log();
+}
+
+if ('Debesuota') {
+    console.log();
+}
+
+if (oras !== 'Sauleta' &&
+ oras !== 'Lietinga' &&
+  oras !== 'Vėjuota' &&
+   oras !== 'Rūkas' &&
+    oras !== 'Debesuota') {
+     console.log('Oras neįtakoja mano nuotaikos 😉');
 }
