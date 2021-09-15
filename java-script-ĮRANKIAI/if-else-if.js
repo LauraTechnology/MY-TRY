@@ -64,10 +64,18 @@ if ('Debesuota') {
     console.log();
 }
 
-if (oras !== 'Sauleta' &&
- oras !== 'Lietinga' &&
-  oras !== 'Vėjuota' &&
-   oras !== 'Rūkas' &&
+if (oras !== 'Saulėta' &&
+    oras !== 'Lietinga' &&
+    oras !== 'Vėjuota' &&
+    oras !== 'Rūkas' &&
     oras !== 'Debesuota') {
      console.log('Oras neįtakoja mano nuotaikos 😉');
+}
+
+if (oras === 'Saulėta' ||
+    oras === 'Lietinga' ||
+    oras === 'Vėjuota' ||
+    oras === 'Rūkas' ||
+    oras === 'Debesuota') {
+     console.log('Nesvarbu koks oras, svarbu turėti tinkamus drabužius 😉');
 }
